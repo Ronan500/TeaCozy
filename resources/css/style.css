@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  margin: -10px -10px
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding: 22.2px 22.2px;
+}
+
+.nav span a{
+  display: inline-block;
+  color: inherit;
+  padding-left: 20px;
+}
