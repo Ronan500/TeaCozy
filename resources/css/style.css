@@ -1,20 +1,28 @@
+/*Body background color and header styling ..*/
+
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity:0.9;
-}
-
-.container {
-  display: flex;
-  align-items: flex-end;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 header {
-  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
   height: 69px;
-  margin: -10px -10px
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+
+}
+.container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -42,4 +50,28 @@ header {
   display: inline-block;
   color: inherit;
   padding-left: 20px;
+}
+
+ /*Main styling and positioning...*/
+
+.main{
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  background-image: url("../images/miss-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+
+}
+
+.content {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
 }
