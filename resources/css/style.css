@@ -36,7 +36,7 @@ header {
   width: auto;
   height: 50px;
   padding-top: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .nav {
@@ -52,7 +52,7 @@ header {
   padding-left: 20px;
 }
 
- /*Main styling and positioning...*/
+ /*...Main styling and positioning...*/
 
 .main{
   display: flex;
@@ -74,4 +74,109 @@ header {
   background-color: black;
   text-align: center;
   width: 1200px;
+}
+
+/* ..Midway styling and positioning...*/
+
+.midway {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  padding-top: 70px;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.berries {
+  display: block;
+  padding: 5px;
+}
+.berries span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.berries img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.rum {
+  display: block;
+  padding: 5px;
+}
+
+.rum span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.rum img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.dounuts {
+  display: block;
+  padding: 5px;
+}
+.dounuts span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.dounuts img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.myrtle {
+  display: block;
+  padding: 5px;
+}
+.myrtle span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.myrtle img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.bedford {
+  display: block;
+  padding: 5px;
+}
+.bedford span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.bedford img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
 }
