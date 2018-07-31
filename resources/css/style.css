@@ -50,6 +50,7 @@ header {
   display: inline-block;
   color: inherit;
   padding-left: 20px;
+  text-decoration: none;
 }
 
  /*...Main styling and positioning...................................*/
